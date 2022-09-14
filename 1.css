@@ -1,0 +1,296 @@
+/*# sourceMappingURL=index.css.map */
+body{
+    background: url(mainmenu.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .main{    
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row nowrap;
+    align-items: center;
+    flex-direction: row;
+    width: 68%;
+    margin: 20px auto;
+} 
+  a{
+    display: inline-block;
+    word-break: keep-all;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat";
+    border-radius: 29px;
+    border: solid 1px rgb(53, 81, 93) ;
+    background: rgb(17, 52, 70, 53%);
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+
+.next{
+    padding: 0px 8px 0px 8px;
+    text-align: center;
+    font-weight: 500;
+}
+.logo{
+    align-items: center;
+}
+.logo1{
+    margin-right: 26px;
+    height: 35px;
+    width: 137.79px;
+    align-items:center;
+}
+.logo2{
+    height: 38px;
+    width: 99px;
+    margin-top: 6px;
+}
+
+.button{
+    display:inline-block;
+    text-align: center;
+    margin-top: 12px;
+    overflow: hidden;    
+
+}
+.button1{
+    margin-right: 16px;
+    padding: 10px 8px;
+    width: 200px;
+    text-align: center;
+}
+.button2{
+    width: 141px;
+    padding: 10px 8px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tag{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tag1{
+    font-size: 30px;
+    margin: 4px 0px 1px 0px;
+    font-family: "Montserrat";
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+.tag2{
+    font-size: 60px;
+    margin: 0px auto;
+    font-family: "Montserrat";
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.group{
+    display: flex;
+    min-block-size: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    min-width: 281.44px;
+    gap: 10px ;
+}
+.group > * {
+    align-items: center;
+    margin: 10px;
+  }
+
+.group1{
+    background-image: url("Path 6 Copy.png");
+    position: relative;
+    background-repeat: no-repeat;;
+    min-height: 350px;
+    min-width: 281.44px;
+    margin-top: 150px;
+}
+.group1 h1{
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin-top: 280px;
+    margin-left: 35px;
+}
+
+.oval{
+    margin: 70px 10px 10px 70px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 50%;
+}
+
+.bglogo{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 115px;
+    height: 52px;
+    width: 60.54px;
+    opacity: 50%;
+
+}
+.group2{
+    background-image: url("Path 6 Copy.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    min-width: 281.44px;
+    margin-top: 150px;
+
+}
+.group3{
+    background-image: url("Path 6 Copy.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    min-width: 281.44px;
+    margin-top: 150px;
+
+}
+.group4{
+    background-image: url("Path 6 Copy.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    min-width: 281.44px;
+    margin-top: 150px;
+}
+.group2 h1{
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+.oval0{
+    margin: 70px 10px 10px 70px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 50%;
+}
+
+.bglogo0{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 120px;
+    height: 69px;
+    opacity: 50%;
+
+}
+
+.group3 h1{
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin-top: 280px;
+    margin-left: 25px;
+}
+.oval1{
+    margin: 70px 10px 10px 70px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 50%;
+}
+
+.bglogo1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 130px;
+    height: 82px;
+    opacity: 50%;
+}
+
+.group4 h1{
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgb(255, 255, 255,0.53);
+    text-transform: uppercase;
+    margin-top: 280px;
+    margin-left: 35px;
+}
+.oval2{
+    margin: 70px 10px 10px 70px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 50%;
+}
+
+.bglogo2{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 130px;
+    height: 44px;
+    opacity: 50%;
+
+}
+.group1:hover,.group2:hover,.group3:hover,.group4:hover{
+    background-image: url("Path 6.png");
+    color: #fff;
+}
+.group4:hover h1,.group3:hover h1,.group2:hover h1,.group1:hover h1{
+    color: #fff;
+    opacity: 100%;
+}
+.group1:hover .bglogo,.group2:hover .bglogo0, .group3:hover .bglogo1, .group4:hover .bglogo2,.group1:hover .oval,.group2:hover .oval0,.group3:hover .oval1,.group4:hover .oval2{
+    opacity: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    .main{
+        width: 90%;
+    }
+
+  }
+@media screen and (max-width: 1400px) {
+    .container{
+        width: 72%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+    .tag{
+        margin-top: 100px;
+    }
+    .group1{
+        margin-top: 50px;
+    }
+    .group2{
+        margin-top: 50px;
+    }
+    .group3{
+        margin-top: 20px;
+    }
+    .group4{
+        margin-top: 20px ;
+    }
+    .main{
+        width: 100%;
+    }
+
+  }
+  
