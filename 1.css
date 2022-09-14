@@ -13,7 +13,7 @@ body{
   .main{    
     display: flex;
     justify-content: space-between;
-    flex-flow:wrap;
+    flex-flow:row nowrap;
     align-items: center;
     flex-direction: row;
     width: 68%;
@@ -33,9 +33,11 @@ body{
     padding: 8px 14px;
     font-size: 16px;
   }
+
 .next{
-    padding: 0px 16px 0px 10px;
+    padding: 0px 8px 0px 8px;
     text-align: center;
+    font-weight: 500;
 }
 .logo{
     align-items: center;
@@ -61,11 +63,13 @@ body{
 }
 .button1{
     margin-right: 16px;
+    padding: 10px 8px;
     width: 200px;
     text-align: center;
 }
 .button2{
     width: 141px;
+    padding: 10px 8px;
     text-align: center;
 }
 .container{
@@ -135,6 +139,7 @@ body{
     margin: 70px 10px 10px 70px;
     overflow: hidden;
     position: absolute;
+    opacity: 50%;
 }
 
 .bglogo{
@@ -143,7 +148,7 @@ body{
     margin-left: 115px;
     height: 52px;
     width: 60.54px;
-
+    opacity: 50%;
 
 }
 .group2{
@@ -163,7 +168,7 @@ body{
 
 }
 .group4{
-    background-image: url("Path 6.png");
+    background-image: url("Path 6 Copy.png");
     background-repeat: no-repeat;
     height: 350px;
     min-width: 281.44px;
@@ -182,6 +187,7 @@ body{
     margin: 70px 10px 10px 70px;
     overflow: hidden;
     position: absolute;
+    opacity: 50%;
 }
 
 .bglogo0{
@@ -189,6 +195,7 @@ body{
     margin-top: 105px;
     margin-left: 120px;
     height: 69px;
+    opacity: 50%;
 
 }
 
@@ -205,6 +212,7 @@ body{
     margin: 70px 10px 10px 70px;
     overflow: hidden;
     position: absolute;
+    opacity: 50%;
 }
 
 .bglogo1{
@@ -212,14 +220,14 @@ body{
     margin-top: 100px;
     margin-left: 130px;
     height: 82px;
-
+    opacity: 50%;
 }
 
 .group4 h1{
     font-size: 32px;
     font-family: "Montserrat";
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255,0.53);
     text-transform: uppercase;
     margin-top: 280px;
     margin-left: 35px;
@@ -228,6 +236,7 @@ body{
     margin: 70px 10px 10px 70px;
     overflow: hidden;
     position: absolute;
+    opacity: 50%;
 }
 
 .bglogo2{
@@ -235,8 +244,27 @@ body{
     margin-top: 120px;
     margin-left: 130px;
     height: 44px;
+    opacity: 50%;
 
 }
+.group1:hover,.group2:hover,.group3:hover,.group4:hover{
+    background-image: url("Path 6.png");
+    color: #fff;
+}
+.group4:hover h1,.group3:hover h1,.group2:hover h1,.group1:hover h1{
+    color: #fff;
+    opacity: 100%;
+}
+.group1:hover .bglogo,.group2:hover .bglogo0, .group3:hover .bglogo1, .group4:hover .bglogo2,.group1:hover .oval,.group2:hover .oval0,.group3:hover .oval1,.group4:hover .oval2{
+    opacity: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    .main{
+        width: 90%;
+    }
+
+  }
 @media screen and (max-width: 1400px) {
     .container{
         width: 72%;
@@ -245,4 +273,24 @@ body{
         margin: auto;
         justify-content: center;
     }
+    .tag{
+        margin-top: 100px;
+    }
+    .group1{
+        margin-top: 50px;
+    }
+    .group2{
+        margin-top: 50px;
+    }
+    .group3{
+        margin-top: 20px;
+    }
+    .group4{
+        margin-top: 20px ;
+    }
+    .main{
+        width: 100%;
+    }
+
   }
+  
