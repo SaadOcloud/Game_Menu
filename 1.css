@@ -1,4 +1,5 @@
-/*# sourceMappingURL=index.css.map */
+@import url('https://fonts.googleapis.com/css2?family=MontserratMontserrat:wght@100&display=swap');
+
 body{
     background: url(images/BG.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -8,16 +9,21 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 85%;
   }
-  .main{    
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar{    
     display: flex;
     justify-content: space-between;
     flex-flow:row nowrap;
     align-items: center;
     flex-direction: row;
-    width: 68%;
-    margin: 25px auto;
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
 } 
   a{
     display: inline-block;
@@ -30,70 +36,71 @@ body{
     background: rgb(17, 52, 70, 53%);
     text-transform: uppercase;
     overflow: hidden;
-    padding: 8px 14px;
     font-size: 16px;
+    font-weight: 300;
   }
 
 .next{
-    padding: 0px 8px 0px 8px;
+    padding: 0px 8px;
     text-align: center;
     font-weight: 500;
 }
-.logo{
+.logos{
     align-items: center;
+    margin-left: 18%;
 }
-.logo1{
+.Experios_logo{
     margin-right: 26px;
-    height: 35px;
-    width: 137.79px;
+    height: 30px;
     align-items:center;
 }
-.logo2{
-    height: 38px;
-    width: 99px;
+.VirtualEscape_logo{
+    height: 34px;
     margin-top: 6px;
 }
 
 .button{
     display:inline-block;
     text-align: center;
+    align-self: center;
     margin-top: 12px;
-    overflow: hidden;    
-
+    margin-right: 18%;
 }
-.button1{
+.connection_button{
+    margin-left: auto !important;
     margin-right: 16px;
     padding: 10px 8px;
     width: 200px;
     text-align: center;
 }
-.button2{
+.Logout_button{
     width: 141px;
     padding: 10px 8px;
+    margin-bottom:0px ;
     text-align: center;
 }
 
-.box{
+.boxes{
     border-radius: 10px;
     border: 1px solid rgb(53, 81, 93);
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
+    align-content: center;
     display: flex;
     backdrop-filter: blur(50px) brightness(50%) opacity(100%);
     flex-direction: column;
     margin-bottom: 40px;
-    padding: 20px 30px 40px;
+    padding: 20px 30px 40px;  
     font-size: 20px;
     font-family: "Montserrat";
-    width: 1170px;
     color: #FFFFFF;
 }
 
-.firstbox{
-    margin-bottom: 0.5rem!important;
-
+.textbox{
+    margin-bottom: 0.6rem !important;
 }
-.secondbox{
+
+.box{
     display: flex;
     margin-right: 20px;
     margin-top: 12px;
@@ -102,15 +109,16 @@ body{
     background-color: rgb(14, 38, 52,0.53);
     border-radius: 7px;
 }
-.overview{
+.image{
     align-self: flex-start;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .bold{
     font-weight: bold;
 }
-.inner{
+.innerbox{
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     margin-left: 20px;
 }
@@ -120,13 +128,12 @@ body{
     align-items:start;
     margin-top:20px ;
     margin-left: 20px;
+    margin-right: 10px;
     text-align: start;
 }
-::after,::before{
-    box-sizing: border-box;
-}
+
 .returnbutton{
-    margin-top: 40px;
+    margin-top: 50px;
     align-self: center;
 }
 .rtbutton{
@@ -149,26 +156,59 @@ body{
     margin-right:4px;
 }
 
+@media screen and (max-width: 1500px){
+    .logos{
+        margin-left: 10%;
+    }
+    .button{
+        margin-right: 10%;
+    }
+}
 
-
-@media screen and (max-width: 1400px)
+@media screen and (max-width: 1200px)
 {
-    .box 
+    .boxes
     {
         width: 95%;
-
     }
-    .main{
-        width: 100%;
+    .logos{
+        margin-left: 0px;
     }
-    
+    .button{
+        margin-right: 0px;
+    }
+}
 
+@media screen and (max-width: 800px)
+{
+    .image {
+        align-self: center!important;
+        margin-left: 0px ;
+        margin-top: 20px;
+    }
+    .innerbox{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .rtbutton {
+        width: 260px !important;
+        height: 54px !important;
+        font-size: .85em !important;
+    }
+    .boxes{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
-@media screen and (max-width: 1600px) {
-    .main{
-        width: 90%;
+@media (min-width: 768px)
+{
+    .button {
+        display: flex!important;
+        flex-basis: auto;
     }
-
-  }
+    
+}
