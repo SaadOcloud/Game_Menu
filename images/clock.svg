@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.928" height="47.928" viewBox="0 0 47.928 47.928">
+  <g id="clock" transform="translate(1.5 1.5)">
+    <path id="Shape" d="M0,22.464A22.464,22.464,0,1,1,22.464,44.928,22.489,22.489,0,0,1,0,22.464Z" fill="none" stroke="#ca902a" stroke-width="3"/>
+    <path id="Shape-2" data-name="Shape" d="M2.808,0H0V14.621l8.835,8.835,1.985-1.985L2.808,13.459Z" transform="translate(21.06 8.424)" fill="#f5a623"/>
+  </g>
+</svg>
