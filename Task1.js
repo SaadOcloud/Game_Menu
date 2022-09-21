@@ -24,4 +24,4 @@ const array= [
 
 let key='city';
 
-GroupByKey(array,key)
+console.log(GroupByKey(array,key))
