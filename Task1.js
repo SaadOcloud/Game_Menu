@@ -1,6 +1,6 @@
 function GroupByKey(array,key)
 {
-  var tempData = [];
+  var tempData = {};
 
   for ( var index=0; index<array.length; index++ )
    {
@@ -9,7 +9,7 @@ function GroupByKey(array,key)
           tempData[array[index][key]]=[];
           
       }
-      tempData[array[index][key]].push(array[index] );
+      tempData[array[index][key]].push(array[index])
   }
   return tempData
 }
