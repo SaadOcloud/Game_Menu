@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./input.css">
-    <title>How to play</title>
+    <title>Leaderboard</title>
 </head>
 <body class="flex flex-col m-auto bg-no-repeat bg-cover bg-fixed bg-[url('/img/result.svg')] font-montserrat">
-    <div class="navbar flex justify-between items-center mb-[39px] mx-5 flex-row py-[39px] px-4 ">
+    <div class="navbar flex justify-between items-center mx-5 flex-row py-[39px] px-4 ">
 
         <div class="logos items-center ml-[18%] xl:ml-[10%] l:ml-[0px]"> 
             <img class="Experios_logo mr-[26px] h-[30px] items-center inline-block m:self-center m:ml-0" src="img/logo1.svg" alt="Logo">
@@ -16,121 +16,120 @@
         </div>
     
         <div class="button text-center self-center mt-3 mr-[18%] inline-block xl:mr-[10%] l:mr-[0px] xl:flex basis-auto">
-            <a href="#" class="connection_button text-[16px] ml-auto mr-4 py-2.5 px-2 w-[200px] text-center inline-block text-white font-montserrat rounded-[30px] bg-bls border-x-[1px] border-y-[1px] border-Box uppercase overflow-hidden font-[300]" ><img class="button_icon py-0 px-2 text-center font-medium inline-block" src="img/Image 7.svg" alt="Next">6 CONNECTED</a>
-            <a href="#" class="Logout_button text-[16px] w-[141px] py-2.5 pr-2 mb-0 text-center rounded-[29px] inline-block font-montserrat bg-bls text-white uppercase border-x-[1px] border-y-[1px] border-Box overflow-hidden font-[300]"><img class="button_icon self-center inline-block py-0 px-2 text-center" src="img/Image 8.svg" alt="Next">Log out</a>
+            <a href="#" class="connection_button text-[16px] ml-auto mr-4 px-[1rem] py-[0.35rem] w-[200px] h-[37px] text-center inline-block text-white font-montserrat rounded-[29px] bg-bls border-x-[1px] border-y-[1px] border-Box uppercase overflow-hidden font-[300]" ><img class="button_icon px-3 text-center font-medium inline-block" src="img/Image 7.svg" alt="Next">6 CONNECTED</a>
+            <a href="#" class="Logout_button text-[16px] w-[153px] h-[37px] p-[0.35rem] mb-0 text-center rounded-[29px] inline-block font-montserrat bg-bls text-white uppercase border-x-[1px] border-y-[1px] border-Box overflow-hidden font-[300]"><img class="button_icon self-center inline-block px-2 text-center" src="img/Image 8.svg" alt="Next">Log out</a>
         </div>
     
       </div>
-    
-      <div class="boxes flex flex-col text-left border-x-[1px] border-y-[1px] border-Box bg-bgc rounded-[10px] text-white font-montserrat px-[103.5px] pt-[39px] pr-[110px]] self-center">
-       <div class="leaderboard flex flex-col items-center mt-[10px] text-[20px]"> 
-        <div class="leaderboard_text text-[34px] font-[400] self-start mb-5"><span>GAME: TIME'S TICKING</span></div>
-        <table class=" flex border-x-[1px] border-y-[1px] border-white">
-                <tr class="border-x-[1px] border-y-[1px] border-white bg-greenshade flex items-center flex-row h-[50px]">
-                  <th class="rank p-5">Rank</th>
-                  <th class="team pl-10 pr-[200px]">Team Name</th>
-                  <th class="hints p-5">Hints</th>
-                  <th class="incorrect p-5">Incorrect</th>
-                  <th class="result pl-5 pr-10">Result</th>
+
+        <div class="boxes text-xl w-[1170px] leading-6 rounded-xl self-center border-x-[1px] border-y-[1px] border-Box mt-1 align-middle flex flex-col text-white mb-8 bg-bgc font-montserrat pt-[39px] pl-[103px] pr-[110px] l:w-[95%] l:pl-[30px] l:pr-[30px]">
+          <div class="heading text-[34px] text-white flex s:text-[1.8rem] xs:text-[1.4rem] sm:text-center"><h1>GAME: TIME'S TICKING</h1></div>
+          <div class="table_container flex w-[100%] text-[20px] mt-[37px]">
+            <table class="table border-collapse l:text-[0.9rem] w-[100%] m:text-[0.7rem]">
+              <thead class="head bg-greenshade">
+                <tr class="row border-y-[1px] border-x-[1px]">
+                  <th class="table_headings p-[12px] align-top font-normal">Rank</th>
+                  <th class="table_headings text-left font-normal">Team Name</th>
+                  <th class="table_headings text-center font-normal">Hints</th>
+                  <th class="table_headings text-center font-normal">Incorrect</th>
+                  <th class="table_headings text-center font-normal">Result</th>
                 </tr>
-                <tr class="row border-y-[1px] border-white bg-darkgreenshade">
-                  <td class="rank px-10">1</td>
-                  <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                  <td class="hints pl-0">1</td>
-                  <td class="incorrect pl-[100px]">0</td>
-                  <td class="result pl-[100px] pr-10">32:10</td>
+              </thead>
+              <tbody>
+                <tr class="row border-y-[1px] border-x-[1px] bg-darkgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
                 </tr>
-
-                <tr class="row border-y-[1px] border-white bg-lightgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-                  <tr class="row border-y-[1px] border-white bg-darkgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-                  <tr class="row border-y-[1px] border-white bg-lightgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-                  <tr class="row border-y-[1px] border-white bg-darkgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-                  <tr class="row border-y-[1px] border-white bg-lightgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-                  <tr class="row border-y-[1px] border-white bg-darkgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-                  <tr class="row border-y-[1px] border-white bg-lightgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-                  <tr class="row border-y-[1px] border-white bg-darkgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-                  <tr class="row border-y-[1px] border-white bg-lightgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-                  <tr class="row border-y-[1px] border-white bg-darkgreenshade">
-                    <td class="rank px-10">1</td>
-                    <td class="team pl-14 pr-[200px]">Cat Out The Bag</td>
-                    <td class="hints pl-0">1</td>
-                    <td class="incorrect pl-[100px]">0</td>
-                    <td class="result pl-[100px] pr-10">32:10</td>
-                  </tr>
-
-              </table>
-
-        </div>
-        <div class="returnbutton mt-12 flex justify-center mb-3">
-            <button class="rtbutton justify-center items-center flex bg-gradient-to-l from-buttoncol to-buttoncola text-white rounded-3xl w-80 h-14 m-0 s:w-[260px] s:h-[54px] s:text-[0.85rem]"><img class="icon m-1" src="img/Icon awesome-arrow-left.svg" alt="icon">RETURN TO MAIN MENU</button>
-        </div>
-       </div>
        
-       </div>
-    
+                <tr class="row border-y-[1px] border-x-[1px] bg-lightgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+       
+                <tr class="row border-y-[1px] border-x-[1px] bg-darkgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+
+                <tr class="row border-y-[1px] border-x-[1px] bg-lightgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+       
+                <tr class="row border-y-[1px] border-x-[1px] bg-darkgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+
+                <tr class="row border-y-[1px] border-x-[1px] bg-lightgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+       
+                <tr class="row border-y-[1px] border-x-[1px] bg-darkgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+
+                <tr class="row border-y-[1px] border-x-[1px] bg-lightgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+       
+                <tr class="row border-y-[1px] border-x-[1px] bg-darkgreenshade">
+                  <td class="Rank p-[12px] align-top text-center">1</td>
+                  <td class="teamname text-left">Cat Out The Bag</td>
+                  <td class="hints text-center">1</td>
+                  <td class="incorrect text-center">0</td>
+                  <td class="result text-center">32:10</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+          
+        <div class="returnbutton mt-12 flex justify-center mb-3">
+          <button class="rtbutton text-[18px] justify-center items-center flex bg-gradient-to-t to-lightred from-darkred text-white rounded-[29px] w-[386px] h-[58px] m-0 s:w-[260px] s:h-[54px] m:text-[0.85rem] m:w-[320px]"><img class="icon m-1" src="img/Icon awesome-arrow-left.svg" alt="icon">RETURN TO MAIN MENU</button>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      
         
-    
-      </div>
     
 </body>
 </html>

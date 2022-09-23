@@ -6,15 +6,15 @@ module.exports = {
       flex: {
         '2': '2 1',
         '3': '3 1',
-        '4': '4 1',
         '6': '6 1',
-
       },
       screens:{
         'xl':{'max': '1500px'},
         'l':{'max': '1200px'},
         'm':{'max': '800px'},
         's':{'max': '500px'},
+        'sm':{'max':'386px'},
+        'xs':{'max': '300px'},
         'ml':{'min': '768px'},
       },
       colors:{
@@ -25,6 +25,8 @@ module.exports = {
         'greenshade':'#0A1821',
         'darkgreenshade':'#0E2634',
         'lightgreenshade':'#2D4955',
+        'lightred':'#f80705',
+        'darkred':'#7b1e1d',
         'Box':'#35515d',
         'bgc':'rgb(17,52,70,.53)',
       },
