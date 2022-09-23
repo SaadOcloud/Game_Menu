@@ -1,15 +1,17 @@
 function GroupByKey(array,key)
 {
-  tempData = {};
+  const tempData = {};
 
-  for ( var index=0; index<array.length; index++ )
+  for ( var index=0; index<array.length; index++)
    {
-      if ( !tempData[array[index][key]]) 
-      {
-          tempData[array[index][key]]=[];
-          
-      }
-      tempData[array[index][key]].push(array[index])
+
+    if (!tempData[array[index][key]]) 
+    {
+        tempData[array[index][key]]=[];
+    }
+
+    tempData[array[index][key]].push(array[index])
+
   }
   return tempData
 }

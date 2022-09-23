@@ -9,13 +9,14 @@ const array=[
 const key='city';
 
 function GroupByKey(arr,key) {
-    const tempData=arr.reduce((acc,cv)=>{
-        if(!acc[cv[key]]){
-            acc[cv[key]]=[]
+    var tempobj=[];
+    arr.reduce((accumulator,currentvalue)=>{
+        if(!accumulator[currentvalue[key]]){
+            accumulator[currentvalue[key]]=[]
         }
-        acc[cv[key]].push(cv)
-        tempobj=acc
-        return acc
+        accumulator[currentvalue[key]].push(currentvalue)
+        tempobj=accumulator
+        return accumulator
     },{});
     return tempobj
     
