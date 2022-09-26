@@ -19,10 +19,13 @@ function updatevalue(ele){
         for(var j in array){
             if(result[0].id==array[j].next){
                 array[j].value=result[0]
-                return (result.unshift(array[j]))
+                result.unshift(array[j])
+                break
             }
         }
     }
 }
 updatearray(array)
+result=JSON.stringify(result);
 console.log(result)
+// console.log(result[0].value)
